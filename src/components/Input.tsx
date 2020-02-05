@@ -12,7 +12,7 @@ export const Input = (props: Props) => {
 
       const onChange = (ev:React.ChangeEvent<HTMLInputElement>) => {
             const value = ev.currentTarget.value;
-            if(Number(value) >= 0) {
+            if( Number(value) >= 0 && Number(value) < 6000000 ) {
                   setState({value});
                   props.onChange( value || '0')
             }
