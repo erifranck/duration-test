@@ -4,27 +4,25 @@
   "private": true,
   "dependencies": {
     "@types/enzyme": "^3.10.3",
-    "@types/jest": "24.0.18",
-    "@types/node": "12.7.2",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
-    "@types/react-dom": "16.9.0",
-    "@types/redux": "^3.6.0",
+    "@types/react-dom": "^16.9.5",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.4.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2",
-    "react-scripts-ts": "^3.1.0",
     "react-test-renderer": "^16.9.0",
     "redux": "^4.0.4",
-    "typescript": "3.5.3"
+    "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test",
-    "eject": "react-scripts-ts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
