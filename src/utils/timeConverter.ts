@@ -5,7 +5,7 @@ const concatNullValue = (characters: number) => (value: string) => {
 
 export function formatTime(milliseconds: number): string {
       const ms = concatNullValue(3)(
-            String(milliseconds % 60000)
+            String(milliseconds % 1000)
       );
       const seconds = concatNullValue(2)(
             String(Math.floor(milliseconds / 1000) % 60)
@@ -13,5 +13,5 @@ export function formatTime(milliseconds: number): string {
       const minutes = concatNullValue(2)(
             String(Math.floor(milliseconds / 60000))
       );
-      return `${minutes}:${seconds}:${ms}`;
+      return `${minutes}:${seconds}.${ms}`;
 };
